@@ -62,11 +62,11 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗵𝗮𝘀 ${totalCommands} 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱\n`;
       msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n`
-      msg += `🐐 | ITACHI SENSEI 👾 🪽`; // its not decoy so change it if you want 
+      msg += `🐐 | DEV.THUNDER`; // its not decoy so change it if you want 
 
       const helpListImages = [
-        "https://i.ibb.co/TBfrdhq/image.jpg", // add image link here
-        "https://i.ibb.co/xMnXq8D/image.jpg"
+        "https://i.ibb.co/fYQgsVL/image.jpg", // add image link here
+        "https://i.ibb.co/fYQgsVL/image.jpg"
         // Add more image links as needed
       ];
 
@@ -126,4 +126,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-				      }
+	      }
